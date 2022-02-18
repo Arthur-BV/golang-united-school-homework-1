@@ -1,9 +1,9 @@
 package solution
 
-//import "github.com/kyokomi/emoji/v2"
+import Str "github.com/kyokomi/emoji/v2"
 
 func GetMessage() string {
-	str := "Hallo WarOld !!!" // This is a comment
+	str := Str.Sprint("Hello 🗺️!") // This is a comment
 
 	return str
 }
